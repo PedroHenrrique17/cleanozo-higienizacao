@@ -11,5 +11,5 @@ O Cleanozo Higienização tem como objetivo oferecer uma solução para auxiliar
 
 🛠️ Tecnologias utilizadas
 
-- (HTML,CSS,JavaScript.)
+- (Linguagem:HTML,CSS,JavaScript.)
 - (Banco de dados:MySQL.)
