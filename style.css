@@ -1,0 +1,18 @@
+.titulo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5cap;
+    font-weight: bold;
+    color: rgb(107, 167, 17);
+
+}
+
+.titulo2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5cap;
+    font-weight: bold;
+    color: rgb(12, 80, 182);
+}
+
+.menu {
+    display: flex;
+}
