@@ -1,18 +1,47 @@
-.titulo1 {
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo1 {
     font-size: 5cap;
     font-weight: bold;
     color: rgb(107, 167, 17);
-
+    
 }
 
 .titulo2 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 5cap;
     font-weight: bold;
     color: rgb(12, 80, 182);
 }
 
+
 .menu {
+    top: 0;
+    max-width: 1000px;
+    margin: -100px auto;
+    justify-content: center;
     display: flex;
+    max-width: 1000px;
+    font-family: "Russo One", sans-serif;
+    font-size: 15px;
 }
+.menu-links { 
+    max-width: 1000px;
+    margin: 45px auto;
+    justify-content: center;
+    display: flex; 
+    font-size: 15px;
+    gap: 50px;
+
+} 
