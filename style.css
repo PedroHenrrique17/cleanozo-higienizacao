@@ -11,7 +11,11 @@
     margin: 0 auto;
     padding: 20px;
 }
-
+.logo {
+    display: flex;
+    justify-content: left;
+    
+}
 .titulo1 {
     font-size: 5cap;
     font-weight: bold;
@@ -26,22 +30,17 @@
 }
 
 
-.menu {
-    top: 0;
-    max-width: 1000px;
-    margin: -100px auto;
+.menu-links {
+    top: auto;
     justify-content: center;
     display: flex;
-    max-width: 1000px;
-    font-family: "Russo One", sans-serif;
-    font-size: 15px;
-}
-.menu-links { 
-    max-width: 1000px;
-    margin: 45px auto;
-    justify-content: center;
-    display: flex; 
-    font-size: 15px;
     gap: 50px;
-
-} 
+    margin: -50px auto;
+}
+.botao {
+    display: flex;
+    justify-content: right;
+    background: red;
+    top: auto; 
+    
+}
