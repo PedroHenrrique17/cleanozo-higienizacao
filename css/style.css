@@ -31,10 +31,11 @@ header {
 
 .titulo1 {
     color: white;
+    font-weight: bolder;
 }
 .titulo2 {
      color: #00a99d;
-    font-weight: bold;  
+    font-weight: bolder;  
 }
 
 header nav ul {
