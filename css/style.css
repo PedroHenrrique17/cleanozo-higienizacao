@@ -51,3 +51,9 @@ header nav ul li a:hover {
     color: #228B22;
     text-decoration: underline;
 }
+
+.banner article {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
