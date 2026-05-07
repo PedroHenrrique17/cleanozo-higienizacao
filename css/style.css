@@ -4,13 +4,12 @@
     list-style: none;
 }
 body{
-    background: #E0FFFF;
+    
 }
 header {
     height: 100px;
-    background: #00FA9A;
     display: flex;
-    border-bottom: 3px solid #3CB371;
+    border-bottom: 2px solid rgb(44, 112, 240);
 }
 
 .contentHeader {
@@ -20,32 +19,52 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .logo {
     font-size: 50px ;
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
-    padding: 60px;
+    padding: 55px;
 }
 
 .titulo1 {
-    color: white;
+    color: blue;
     font-weight: bolder;
 }
 .titulo2 {
-     color: #00a99d;
+     color: green;
     font-weight: bolder;  
 }
 
 header nav ul {
     display: flex;
 }
-header nav ul li a {
+
+.navegation {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.botao {
+    display: flex;
+    margin:  0 auto;
+    padding: 5px;
+    background: blue;
+    border-radius: 5px;
     color: white;
+
+
+}
+
+header nav ul li a {
+    color: black;
     text-decoration: none;
     font-size: 18px;
-    padding: 20px;
+    padding: 50px;
+    
 }
 
 header nav ul li a:hover {
@@ -60,7 +79,7 @@ header nav ul li a:hover {
 }
 
 .banner-img {
-    width: 400px;
-    height: 300px;
+    width: 1200px;
+    height: 600px;
     border-radius: 10px;
 }
