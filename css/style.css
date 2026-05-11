@@ -9,7 +9,7 @@ body{
 header {
     height: 100px;
     display: flex;
-    border-bottom: 2px solid rgb(44, 112, 240);
+    border-bottom: 2px solid #ddd;
 }
 
 .contentHeader {
@@ -95,9 +95,14 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
-.rodape ul {
-    margin: 30px;
+.rodape {
+    margin: 15px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    
 }
