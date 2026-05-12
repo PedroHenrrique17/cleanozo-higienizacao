@@ -95,6 +95,22 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
+.banner-text {
+    display: flex;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+       
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    width: 1px;
+    height: 1px;    
+}
+
 .rodape {
     margin: 15px;
     display: flex;
