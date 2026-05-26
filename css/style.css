@@ -10,8 +10,8 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-        background: url(../img/loginFundo.png);
-    background-repeat:no-repeat;
+    background: url(../img/loginFundo.png);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -158,13 +158,10 @@ header nav ul li a:hover {
 
 }
 
-
-
-.imgfundo{
-    position: relative;
-}
-
-.position {
-    position: absolute;
-    margin-bottom: 200px;
+.containerLogin {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(77, 139, 255, 0.2);
+    border-radius: 7px;
+    margin-top: 90px;
 }
