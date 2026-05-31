@@ -15,41 +15,17 @@
     background-size: cover;
 }
 
-header {
-    height: 100px;
+.contentHeader {
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     border-bottom: 2px solid #ddd;
-
-}
-
-.contentHeader {
-    margin: 0;
-    max-width: 1000px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-
 }
 
 .logo {
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
-    padding: 150px;
-    display: flex;
-    padding-left: 325px;
-}
-
-.titulo1 {
-    color: blue;
-    font-weight: bolder;
-}
-
-.titulo2 {
-    color: green;
-    font-weight: bolder;
+    width: 200px;
+    height: 150px;
+    padding: 0px 0px 0px 0px;
 }
 
 header nav ul {
@@ -59,17 +35,19 @@ header nav ul {
 .navegation {
     display: flex;
     align-items: center;
-    padding: 10px 12px;
-
+    justify-content: space-around;
+    padding: 0px 200px;
 }
 
 .navegation ul li a {
-    display: flex;
+    text-decoration: none;
     align-items: center;
     font-size: 15px;
     font-weight: bold;
-
+    color: black;
+    padding: 10px 15px;
 }
+
 
 .botao {
     display: flex;
@@ -89,19 +67,6 @@ header nav ul {
     cursor: pointer;
     text-decoration: underline;
 
-}
-
-header nav ul li a {
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 50px;
-
-}
-
-header nav ul li a:hover {
-    color: blue;
-    text-decoration: underline;
 }
 
 .banner article {
@@ -194,15 +159,16 @@ header nav ul li a:hover {
     outline: none;
 }
 
-.input-box input::placeholder{
+.input-box input::placeholder {
     color: #fff;
 }
+
 .input-box i {
     position: absolute;
     right: 20px;
     top: 50%;
     font-size: 20px;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);
 }
 
 .senha {
@@ -224,7 +190,7 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-.login {
+.login  {
     width: 100%;
     height: 50px;
     background-color: #fff;
@@ -248,11 +214,13 @@ header nav ul li a:hover {
     font-size: 14px;
     text-align: center;
 }
+
 .cadastro a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
 }
+
 .cadastro a:hover {
     text-decoration: underline;
-}   
+}
