@@ -433,7 +433,7 @@ header nav ul {
 
 .antesedepois {
     display: flex;
-    padding: 100px 202px;
+    padding: 100px 400px;
     font-weight: bold;
     color: blue;
 
@@ -441,13 +441,13 @@ header nav ul {
 
 .titulo-resultados {
     display: flex;
-    padding: 0px 200px;
+    padding: 0px 400px;
     margin-top: -60px;
 }
 
 .descricao-resultados {
     display: flex;
-    padding: 0px 180px;
+    padding: 0px 385px;
     margin: 20px;
 }
 
@@ -456,7 +456,7 @@ header nav ul {
     flex-direction: column;
     gap: 15px;
     /* espaço entre as linhas */
-    margin-left: 200px;
+    margin-left: 400px;
 }
 
 .item-resultados {
@@ -481,8 +481,45 @@ header nav ul {
     height: 350px;
     border-radius: 10px;
     display: flex;
-    padding: 0px 800px;
+    padding: 0px 1000px;
     margin-top: -340px;
+}
+
+.banner-servicos-estofados {
+    width: 100%;
+    max-width: 780px;
+    background: linear-gradient(90deg, #003b9f, #0048c7);
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-left: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.banner-servicos-estofados p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.banner-servicos-estofados button {
+    background: #7ed321;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.banner-servicos-estofados button:hover {
+    background: #6abd1b;
 }
 
 .orcamento{
