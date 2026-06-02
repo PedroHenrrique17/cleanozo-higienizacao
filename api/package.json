@@ -1,0 +1,23 @@
+{
+  "name": "cleanozo-higienizacao",
+  "version": "1.0.0",
+  "description": "**cleanozo-higienizacao** \"New teste\"\r meu projeto para empresa de higienização clean ozo",
+  "homepage": "https://github.com/PedroHenrrique17/cleanozo-higienizacao#readme",
+  "bugs": {
+    "url": "https://github.com/PedroHenrrique17/cleanozo-higienizacao/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroHenrrique17/cleanozo-higienizacao.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "logica.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  }
+}
