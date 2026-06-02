@@ -36,10 +36,14 @@
 }
 
 .logo {
-  height: 80px;      /* Define uma altura fixa ideal para o cabeçalho */
-  width: auto;       /* Faz a largura se ajustar proporcionalmente, sem distorcer */
-  object-fit: contain; /* Garante que a imagem caiba perfeitamente no espaço */
-  display: block;    /* Remove pequenos espaçamentos fantasmas abaixo da imagem */
+    height: 80px;
+    /* Define uma altura fixa ideal para o cabeçalho */
+    width: auto;
+    /* Faz a largura se ajustar proporcionalmente, sem distorcer */
+    object-fit: contain;
+    /* Garante que a imagem caiba perfeitamente no espaço */
+    display: block;
+    /* Remove pequenos espaçamentos fantasmas abaixo da imagem */
 }
 
 header nav ul {
@@ -279,7 +283,7 @@ header nav ul {
     margin-top: -340px;
 }
 
-.sobre-icones{
+.sobre-icones {
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #ddd;
@@ -304,7 +308,7 @@ header nav ul {
 .iconesobre4 {
     width: 100px;
     height: 100px;
-}   
+}
 
 .texticones {
     display: flex;
@@ -330,7 +334,222 @@ header nav ul {
 .subtitulo-servicos {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 0px;
     font-weight: extra-bold;
     font-size: 32px;
+}
+
+.descricao-servicos {
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+}
+
+.icon-servicos {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.iconeservicos1 {
+    width: 100px;
+    height: 100px;
+}
+
+.iconeservicos2 {
+    width: 100px;
+    height: 100px;
+}
+
+.iconeservicos3 {
+    width: 100px;
+    height: 100px;
+}
+
+.iconeservicos4 {
+    width: 100px;
+    height: 100px;
+}
+
+.textservicos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -0px;
+    margin: 5px
+}
+
+.borderserver {
+    border: 3px solid #ddd;
+    padding: 45px;
+    border-radius: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.borderserver:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.banner-servicos {
+    width: 100%;
+    max-width: 780px;
+    background: linear-gradient(90deg, #003b9f, #0048c7);
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.banner-servicos p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.banner-servicos button {
+    background: #7ed321;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.banner-servicos button:hover {
+    background: #6abd1b;
+}
+
+
+.antesedepois {
+    display: flex;
+    padding: 100px 202px;
+    font-weight: bold;
+    color: blue;
+
+}
+
+.titulo-resultados {
+    display: flex;
+    padding: 0px 200px;
+    margin-top: -60px;
+}
+
+.descricao-resultados {
+    display: flex;
+    padding: 0px 180px;
+    margin: 20px;
+}
+
+.resulticon {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* espaço entre as linhas */
+    margin-left: 200px;
+}
+
+.item-resultados {
+    display: flex;
+    align-items: center;
+    /* alinha verticalmente */
+}
+
+.check {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    /* espaço entre ícone e texto */
+}
+
+.checktext {
+    font-size: 16px;
+}
+
+.estofados-img {
+    width: 1200px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    padding: 0px 800px;
+    margin-top: -340px;
+}
+
+.orcamento{
+    padding:80px 20px;
+    background:#fff;
+}
+
+.container{
+    max-width:700px;
+    margin:auto;
+}
+
+.subtitulo{
+    display:block;
+    color:#0d4cb3;
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:10px;
+    text-transform:uppercase;
+}
+
+.orcamento h2{
+    font-size:42px;
+    color:#071b3b;
+    margin-bottom:15px;
+}
+
+.orcamento p{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.form-orcamento{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.form-orcamento input,
+.form-orcamento select,
+.form-orcamento textarea{
+    width:100%;
+    padding:14px 16px;
+    border:1px solid #dcdcdc;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+}
+
+.form-orcamento input:focus,
+.form-orcamento select:focus,
+.form-orcamento textarea:focus{
+    border-color:#0d4cb3;
+}
+
+.form-orcamento button{
+    background:#7ac943;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.form-orcamento button:hover{
+    opacity:0.9;
 }
