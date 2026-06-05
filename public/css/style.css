@@ -592,6 +592,10 @@ header nav ul {
     opacity:0.9;
 }
 
+.erro{
+    border:2px solid red !important;
+}
+
 .contato{
     display:flex;
     justify-content:space-between;
