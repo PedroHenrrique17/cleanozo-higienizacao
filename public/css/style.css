@@ -497,6 +497,7 @@ header nav ul {
     align-items: center;
     color: white;
     font-family: Arial, sans-serif;
+    margin-top: 10px;
 }
 
 .banner-servicos-estofados p {
@@ -661,4 +662,56 @@ header nav ul {
     align-items:center;
     justify-content:center;
     text-decoration:none;
+}
+
+.carrosel {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+
+    margin-top: -340px;
+    margin-left: 1000px;
+
+    position: relative;
+}
+
+.containerCarrosel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.containerCarrosel img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background: rgba(0,0,0,0.5);
+    color: white;
+
+    border: none;
+    padding: 15px;
+
+    cursor: pointer;
+    font-size: 25px;
+
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.btn:hover {
+    background: rgba(0,0,0,0.8);
 }
