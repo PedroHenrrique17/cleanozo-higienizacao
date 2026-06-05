@@ -590,3 +590,75 @@ header nav ul {
 .form-orcamento button:hover{
     opacity:0.9;
 }
+
+.contato{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px;
+    background:#fff;
+    gap:60px;
+}
+
+.subtitulo{
+    color:#0d4cb3;
+    font-weight:700;
+    font-size:14px;
+}
+
+.contato h2{
+    font-size:48px;
+    color:#071b3b;
+    margin:15px 0;
+}
+
+.contato p{
+    color:#555;
+}
+
+.item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-top:25px;
+}
+
+.item i{
+    width:45px;
+    height:45px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#0d4cb3;
+    color:#fff;
+    border-radius:8px;
+    font-size:18px;
+}
+
+.contato-logo{
+    text-align:center;
+}
+
+.contato-logo img{
+    max-width:250px;
+    margin-bottom:20px;
+}
+
+.redes{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.redes a{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background:#0d4cb3;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+}
